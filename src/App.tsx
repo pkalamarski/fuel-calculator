@@ -1,5 +1,6 @@
 import { Form } from "antd";
 import React, { useEffect, useState } from "react";
+
 import NumberInput from "./components/NumberInput";
 
 const App = () => {
@@ -71,6 +72,7 @@ const App = () => {
           display: "flex",
           justifyContent: "space-between",
           padding: "10px 40px",
+          fontSize: "1rem",
         }}
       >
         <span>Total price:</span>
